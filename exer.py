@@ -14,10 +14,10 @@ sinonimos= {'Problema':'Impedimento',
             'Cheio':'Lotado'}
 
 print('Descubra o sinonimos das palavras :')
-pergunta= input('Digite uma palavra')
+pergunta= input('Digite uma palavra >> ')
 
 
 if pergunta in sinonimos:
-    print(sinonimos[pergunta])
+    print(f'O sinonimo de {pergunta} é {sinonimos[pergunta]}')
 else:
     print('Não temos essa palavra')
